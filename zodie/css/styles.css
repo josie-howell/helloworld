@@ -1,1 +1,249 @@
+body {
+    color: #391D55;
+    font-size: small;
 
+}
+header {
+    margin: 30px;
+}
+div {
+    margin-left: 20px;
+    border-bottom-style: solid;
+    border-width: medium;
+    border-bottom-color: #999999;
+}
+
+h1 {
+    font-family: Superclarendon;
+    font-weight: bold;
+}
+h2 {
+    font-family: Roboto;
+    font-weight: normal;
+}
+h3 {
+    font-family: Lekton;
+    font-weight: bold;
+}
+h4 {
+    font-family: Lekton;
+    font-weight: lighter;
+}
+
+.roboto {
+    font-family: Roboto;
+    font-weight: lighter;
+}
+
+.lekton-bold {
+    font-family: Lekton;
+    font-weight: bold;
+}
+.superclarendon {
+    font-family: Superclarendon;
+}
+h5 {
+    font-family: Roboto;
+    font-weight: bold;
+
+}
+h6 {
+    font-family: Lekton;
+    font-weight: lighter;
+}
+
+p {
+    text-indent: 50px;
+}
+
+.favicons ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.palette img {
+    padding-right: 12px;
+    padding-left: 4px;
+    padding-bottom: 10px;
+}
+.palette ul li {
+    font-family: Lekton;
+    display: inline-block;
+    padding-right: 18px;
+
+}
+
+.fonts {
+    column-count: 3;
+}
+
+.copy {
+    margin-right: 20px;
+}
+.bootstrap-overrides li a {
+    color: #391D55;
+}
+.ul ul li, .links ul li {
+    font-family: Lekton;
+    color:#391D55!important;
+    list-style: none;
+    padding: 5px;
+
+}
+.ul ul li a:link {
+    text-decoration: none;
+    color: #391D55!important;
+}
+
+.ul ul li a:hover {
+    color: #F15A2C;
+    text-decoration: underline;
+}
+
+blockquote {
+    font-size: 28pt;
+    font-family: Superclarendon;
+    text-align: center;
+    font-style: italic;
+}
+
+.links ul li a:link {
+    text-decoration: none;
+    color: #391D55;
+}
+
+.links ul li a:hover {
+    color: #F15A2C;
+    }
+
+.buttons .button {
+    border-color: #BA1F71;
+    border-radius: 5px;
+    padding: 8px 5px 5px 5px;
+    margin: 0 20px 0 5px;
+}
+
+.buttons .button:hover {
+    background-color: #391D55;
+}
+
+.button:active {
+    background-color: #391D55;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+input[type=text]{
+    width: 400px;
+    color: #999999;
+    font-family: Roboto;
+}
+input[value=Expiration] {
+    width: 270px;
+}
+input[value=CVV] {
+    width: 100px;
+}
+
+input[type=submit] {
+font-family: Roboto;
+    font-weight: lighter;
+    color: #F15A2C;
+    border: 1px solid;
+    padding-top: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    background-color: #F15A2C;
+    color: #391D55;
+
+}
+
+.form h4 {
+    margin-left: 130px;
+}
+
+input {
+    margin: 10px;
+    height: 25px;
+}
+span {
+    margin-left: 322px;
+}
+
+.form button {
+    width: 150px;
+    border: 1px solid;
+    border-radius: 0;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.form .active {
+    background-color: #F15A2C;
+    margin-left: 60px;}
+
+
+.form .active:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+.form button:hover {
+    border: 1px solid #F15A2C;
+
+}
+
+
+
+.topnav {
+    width: 25%;
+    overflow: hidden;
+    background-color: #391D55;
+    position: relative;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.topnav .logo:hover {
+    text-decoration: none;
+    color: white;
+}
+.topnav #myLinks {
+    display: none;
+    border: none;
+}
+
+.topnav a {
+    font-family: Lekton;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: right;
+}
+
+.topnav a:hover {
+    color: #F15A2C;
+}
+
+.topnav a.icon {
+    background: #391D55;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.social img {
+    margin: 10px;
+}
