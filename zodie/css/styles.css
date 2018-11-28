@@ -14,7 +14,7 @@ div {
 }
 
 h1 {
-    font-family: Superclarendon;
+    font-family: Oleo Script, cursive;
     font-weight: bold;
 }
 h2 {
@@ -40,7 +40,7 @@ h4 {
     font-weight: bold;
 }
 .superclarendon {
-    font-family: Superclarendon;
+    font-family: Oleo Script, cursive;
 }
 h5 {
     font-family: Roboto;
@@ -102,7 +102,7 @@ p {
 
 blockquote {
     font-size: 28pt;
-    font-family: Superclarendon;
+    font-family: Oleo Script;
     text-align: center;
     font-style: italic;
 }
