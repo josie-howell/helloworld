@@ -1,0 +1,367 @@
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+section .quotes {
+    column-count: 1;
+
+}
+}
+
+body {
+    color: #391D55;
+    font-size: small;
+}
+
+.splash .logo {
+    width: 30%;
+    float: left;
+}
+.splash img {
+    width: 100%;
+}
+.splash {
+    position: relative;
+    text-align: center;
+    background-color: white;
+
+}
+
+.splash .center-text {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-115%,-90%);
+    margin: 30px;
+    padding: 80px 30px 30px 30px;
+}
+
+.splash .center-logo {
+    width: 40%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+.splash h1 {
+    min-width: 80px;
+    padding-bottom: 15px;
+    border-bottom: 2px dotted;
+}
+
+header {
+    margin: 30px;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+
+
+section h2 {
+    text-align: center;
+    background-color: #F15A2C;
+    padding: 30px;
+}
+.quotes {
+    margin: 30px;
+    text-align: center;
+    column-count: 3;
+
+}
+.quotes h4 {
+    font-style: italic;
+}
+.columns {
+    column-count: 2;
+}
+.descript {
+    margin-bottom: 10px;
+
+}
+.descript h5 {
+    margin-left: 20px;
+}
+
+.descript h6 {
+    background-color: #391D55;
+    color: white;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.compat {
+
+}
+h1 {
+    font-family: 'Oleo Script';
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Roboto';
+    font-weight: lighter;
+}
+h3 {
+    font-family: Lekton;
+    font-weight: bold;
+}
+h4 {
+    font-family: Lekton;
+    font-weight: lighter;
+}
+
+.roboto {
+    font-family: Roboto;
+    font-weight: lighter;
+}
+
+.lekton-bold {
+    font-family: Lekton;
+    font-weight: bold;
+}
+.oleo {
+    font-family: Oleo Script;
+}
+h5 {
+    font-family: Roboto;
+    font-weight: bold;
+
+}
+h6 {
+    font-family: Lekton;
+    font-weight: lighter;
+}
+
+p {
+    text-indent: 50px;
+}
+
+.favicons ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.palette img {
+    padding-right: 12px;
+    padding-left: 4px;
+    padding-bottom: 10px;
+}
+.palette ul li {
+    font-family: Lekton;
+    display: inline-block;
+    padding-right: 18px;
+
+}
+
+.fonts {
+    column-count: 3;
+}
+
+.copy {
+    margin-right: 20px;
+}
+.bootstrap-overrides li a {
+    color: #391D55;
+}
+.ul ul li, .links ul li {
+    font-family: Lekton;
+    color:#391D55!important;
+    list-style: none;
+    padding: 5px;
+
+}
+.ul ul li a:link {
+    text-decoration: none;
+    color: #391D55!important;
+}
+
+.ul ul li a:hover {
+    color: #F15A2C;
+    text-decoration: underline;
+}
+
+blockquote {
+    font-size: 28pt;
+    font-family: Oleo Script;
+    text-align: center;
+    font-style: italic;
+}
+
+.links ul li a:link {
+    text-decoration: none;
+    color: #391D55;
+}
+
+.links ul li a:hover {
+    color: #F15A2C;
+}
+
+.buttons .button {
+    background-color: #FFFFFF;
+    border-color: #BA1F71;
+    border-radius: 5px;
+    padding: 8px 5px 5px 5px;
+    margin: 0 20px 0 5px;
+}
+
+.buttons .button:hover {
+    background-color: #391D55;
+}
+
+.button:active {
+    background-color: #391D55;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+select {
+    width: 25%;
+    margin: 6px;
+    border: 1px solid #391D55;
+    min-width: 60px;
+    color: #999999;
+    font-family: Roboto;
+}
+
+input[value=Expiration] {
+    width: 270px;
+}
+input[value=CVV] {
+    width: 100px;
+}
+
+input[type=submit], .story form {
+    font-family: Roboto;
+    font-weight: lighter;
+    color: #391D55;
+    border: 1px solid;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    background-color: #F15A2C;
+    color: #391D55;
+}
+
+.story {
+    background-color: #F15A2C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.story form {
+    padding-bottom: 10px;
+    text-align: center;
+    border: none;
+}
+
+.form h4 {
+    margin-left: 130px;
+}
+
+input {
+    margin: 10px;
+    height: 25px;
+}
+
+
+.form button {
+    width: 150px;
+    border: 1px solid;
+    border-radius: 0;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.form .active {
+    background-color: #F15A2C;
+    margin-left: 60px;}
+
+
+.form .active:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+.form button:hover {
+    border: 1px solid #F15A2C;
+
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.nav {
+
+}
+
+.topnav {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+
+}
+
+.topnav .logo:hover {
+    text-decoration: none;
+    color: #391D55;
+}
+.topnav #myLinks {
+    display: none;
+    border: none;
+}
+
+.topnav a {
+    font-family: Lekton;
+    color: #391D55;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: right;
+}
+
+.topnav a:hover {
+    color: #F15A2C;
+}
+
+.topnav a.icon {
+    width: 100px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.social img {
+    margin: 10px;
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+}
