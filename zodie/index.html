@@ -1,22 +1,192 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lekton|Roboto|Oleo+Script" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Zodie</title>
+</head>
+<body>
+<div class="nav">
+    <div class="topnav">
+        <a class="logo"><br> </a>
+        <div id="myLinks">
+            <a href="#" data-toggle="tooltip" title="This page does not exist." class="active">browse matches</a>
+            <a href="#" data-toggle="tooltip" title="This page does not exist.">daily horoscope</a>
+            <a href="#" data-toggle="tooltip" title="This page does not exist.">profile</a>
+            <a href="#" data-toggle="tooltip" title="This page does not exist.">messages</a>
+            <a href="#" data-toggle="tooltip" title="This page does not exist.">invite friends</a>
+            <a href="#" data-toggle="tooltip" title="This page does not exist.">contact us</a>
+            <a href="#" data-toggle="tooltip" title="This page does not exist.">upgrade</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div></div>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+<div class="splash">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <img src="../images/splash-02.jpg">
+    <div class="center-text">
+        <h1>Enter your birthday to continue</h1>
+        <form action="/action_page.php">
+
+            <div id="head1">
+                <select id="gMonth1">
+                    <option value=''>--Select Month--</option>
+                    <option selected value='1'>January</option>
+                    <option value='2'>February</option>
+                    <option value='3'>March</option>
+                    <option value='4'>April</option>
+                    <option value='5'>May</option>
+                    <option value='6'>June</option>
+                    <option value='7'>July</option>
+                    <option value='8'>August</option>
+                    <option value='9'>September</option>
+                    <option value='10'>October</option>
+                    <option value='11'>November</option>
+                    <option value='12'>December</option>
+                </select></div>
+
+            <select name="Day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+
+                <select id="year"></select>
+            <br>
+            <span><input type="submit" value="View Matches" data-toggle="tooltip" title="This page does not exist." ></span>
+        </form>
+        <div class="center-logo">
+            <img src="../images/zodie-05.png">
+        </div>
+    </div>
+</div>
+
+<section>
+    <h2>
+        How will the stars align?
+    </h2>
+
+    <div class="quotes">
+        <h4>“ We truly would not have met without zodie. We appreciated the quality of questions and feeling of security on zodie. ”</h4>
+        <h3>- Marianne<br>
+            </h3><h6>Oregon City, Oregon</h6><br>
+
+        <h4>“ I love how we are completely compatible, so thank you zodie! ”</h4><br><br><br>
+        <h3>- Linda<br>
+            </h3><h6>Irvine, California</h6><br>
+
+        <h4>“ The first date went amazing and we felt like we had known each other our whole lives. I couldn't imagine life without her. ”</h4>
+        <h3>
+            - Caleb<br></h3>
+           <h6>Thiensville, Wisconsin</h6> <br>
+
+    </div>
+    <div class="columns">
+    <div class="descript">
+        <h5>
+            3 Steps to Find Your Right Match
+        </h5>
+        <h6>
+            Answer the basics to help us narrow down people who meet your personal criteria.
+        </h6>
+        <h6>
+            Complete compatibility questions to get quality connections based on key areas of personality.
+        </h6>
+        <h6>
+            Review the profiles of everyone who we've determined to be a right match for you, for FREE.
+        </h6>
+        </div>
+<div class="compat">
+        <p>
+            Traditional Internet dating can be challenging for those singles looking for love that lasts - but zodie is not a traditional dating site. Of all the single men or women you may meet online, very few will be compatible with you specifically, and it can be difficult to determine the level of compatibility of a potential partner through methods of conventional dating services. Our Compatibility Matching System does the work for you by narrowing the field from thousands of single prospects to match you with a select group of compatible matches with whom you can build a quality relationship.
+        </p></div>
+    </div>
+    <div class="story"><h2>
+    Are you one of our happy couples?</h2>
+
+        <form action="http://google.com">
+            <input type="submit" value="Tell us your story" data-toggle="tooltip" title="This page does not exist." >
+        </form></div>
+
+</section>
+<footer>
+    Josie Howell 2019
+    Minneapolis Community & Technical College
+    WEBI 2023-01 Web Design Problems 1
+    This is a student-made site meant for educational purposes only.
+</footer>
+
+</body>
+<!-- Optional JavaScript -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+
+        var start = 1900;
+        var end = new Date().getFullYear();
+        var options = "";
+        for(var year = start ; year <=end; year++){
+            options += "<option>"+ year +"</option>";
+        }
+        document.getElementById("year").innerHTML = options;
+
+        $(function(){
+            $('#gMonth2').change(function(){
+                var month = $(this).val();
+                $('#gMonth1').val(month);
+            });
+        });
+
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
 </html>
