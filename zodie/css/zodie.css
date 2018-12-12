@@ -4,7 +4,20 @@
     }
 section .quotes {
     column-count: 1;
+}
+    .splash .center-text {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%,-60%);
+    margin: 30px;
+    padding: 80px 30px 30px 30px;
+}
 
+.quotes h3, h4, h5 {
+    font-size: 90%;
 }
 }
 
