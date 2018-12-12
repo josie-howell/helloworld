@@ -12,7 +12,10 @@ body {
     color: #391D55;
     font-size: small;
 }
-
+.nav .logo {
+    width: 20%;
+    min-width: 175px;
+}
 .splash .logo {
     width: 30%;
     float: left;
@@ -35,7 +38,7 @@ body {
     left: 50%;
     transform: translate(-115%,-90%);
     margin: 30px;
-    padding: 30px 30px 30px 30px;
+    padding: 80px 30px 30px 30px;
 }
 
 .splash .center-logo {
@@ -67,7 +70,8 @@ header {
 
 section h2 {
     text-align: center;
-    background-color: #F15A2C;
+    margin-top: 5px;
+    border: 1px solid #F15A2C;
     padding: 30px;
 }
 .quotes {
@@ -100,8 +104,9 @@ section h2 {
 }
 
 .compat {
-
+    margin-right: 20px;
 }
+
 h1 {
     font-family: 'Oleo Script';
     font-weight: bold;
@@ -111,11 +116,11 @@ h2 {
     font-weight: lighter;
 }
 h3 {
-    font-family: Lekton;
+    font-family: Roboto;
     font-weight: bold;
 }
 h4 {
-    font-family: Lekton;
+    font-family: Roboto;
     font-weight: lighter;
 }
 
@@ -125,7 +130,7 @@ h4 {
 }
 
 .lekton-bold {
-    font-family: Lekton;
+    font-family: Roboto;
     font-weight: bold;
 }
 .oleo {
@@ -137,7 +142,7 @@ h5 {
 
 }
 h6 {
-    font-family: Lekton;
+    font-family: Roboto;
     font-weight: lighter;
 }
 
@@ -232,11 +237,16 @@ select {
     font-family: Roboto;
 }
 
+.form input[type=text]{
+    width: 400px;
+    color: #999999;
+    font-family: Roboto;
+}
 input[value=Expiration] {
-    width: 270px;
+    width: 275px!important;
 }
 input[value=CVV] {
-    width: 100px;
+    width: 100px!important;
 }
 
 input[type=submit], .story form {
@@ -262,17 +272,41 @@ input[type=submit]:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-top: 20px;
+}
+.story img, #social img {
+    margin: 5px;
 }
 
+#social{
+  margin-left: 80%;
+}
 .story form {
     padding-bottom: 10px;
     text-align: center;
     border: none;
 }
 
+.upgrade, .upgrade .row {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.form {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.form button a{
+    color: black!important;
+}
 .form h4 {
     margin-left: 130px;
+}
+
+.form h5 {
+    margin-left: 22%;
 }
 
 input {
@@ -283,14 +317,12 @@ input {
 
 .form button {
     width: 150px;
-    background-color: #ffffff;
     border: 1px solid;
     border-radius: 0;
     padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-
 }
 
 .form .active {
@@ -304,7 +336,6 @@ input {
 
 .form button:hover {
     border: 1px solid #F15A2C;
-
 }
 
 .logo {
@@ -312,7 +343,7 @@ input {
 }
 
 .nav {
-
+border-bottom: 1px solid grey;
 }
 
 .topnav {
@@ -323,7 +354,6 @@ input {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 95%;
-
 }
 
 .topnav .logo:hover {
@@ -365,4 +395,251 @@ input {
 footer {
     margin: 20px;
     text-align: center;
+}
+
+/*Chat features*/
+
+.container{max-width:1170px; padding-top: 40px; margin:auto;}
+img{ max-width:100%;}
+.inbox_people {
+    background: #f8f8f8 none repeat scroll 0 0;
+    float: left;
+    overflow: hidden;
+    width: 40%; border-right:1px solid #c4c4c4;
+}
+.inbox_msg {
+    border: 1px solid #c4c4c4;
+    clear: both;
+    overflow: hidden;
+}
+
+.recent_heading {
+    float: left;
+    width:40%;
+}
+
+
+.srch_bar {
+    display: inline-block;
+    text-align: right;
+    width: 60%;
+}
+
+.headind_srch {
+    padding:10px 29px 10px 20px;
+    overflow:hidden;
+    border-bottom:1px solid #c4c4c4;
+}
+
+.recent_heading h4 {
+    color: #F15A2C;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.srch_bar input {
+    border: 1px solid #cdcdcd;
+    border-width: 0 0 1px 0;
+    width:80%;
+    padding:2px 0 4px 6px;
+    background:none;
+}
+
+.srch_bar .input-group-addon button {
+    background: none repeat scroll 0 0;
+    border: medium none;
+    padding: 0;
+    color: #391D55;
+    font-size: 18px;
+}
+.srch_bar .input-group-addon {margin: 0 0 0 -27px;}
+
+.chat_ib h5{ font-size:15px; color:#391D55; margin:0 0 8px 0;}
+.chat_ib h5 span{ font-size:13px; float:right;}
+.chat_ib p{ font-size:14px; color:#989898; margin:auto}
+.chat_img {
+    float: left;
+    width: 11%;
+}
+.chat_ib {
+    float: left;
+    padding: 0 0 0 15px;
+    width: 88%;
+}
+
+.chat_people{ overflow:hidden; clear:both;}
+.chat_list {
+    border-bottom: 1px solid #c4c4c4;
+    margin: 25px 0 20px 0;
+    padding: 18px 16px 10px;
+}
+.inbox_chat { height: 550px; overflow-y: scroll;}
+
+.active_chat{ background:#ebebeb;}
+
+.incoming_msg_img {
+    display: inline-block;
+    width: 6%;
+}
+.received_msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+.received_withd_msg p {
+    background: #ebebeb none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #646464;
+    font-size: 14px;
+    margin: 0;
+    padding: 12px;
+    width: 100%;
+}
+.time_date {
+    color: #747474;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+.received_withd_msg { width: 57%;}
+.mesgs {
+    float: left;
+    padding: 30px 15px 0 25px;
+    width: 60%;
+}
+
+.sent_msg p {
+    background: #F15A2C none repeat scroll 0 0;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0; color:#fff;
+    padding: 5px 10px 5px 12px;
+    width:100%;
+}
+.outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
+.sent_msg {
+    float: right;
+    width: 46%;
+}
+.input_msg_write input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #4c4c4c;
+    font-size: 15px;
+    min-height: 48px;
+    width: 100%;
+}
+
+.type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+.msg_send_btn {
+    background: #391D55 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 33px;
+}
+.messaging { padding: 0 0 50px 0;}
+.msg_history {
+    height: 516px;
+    overflow-y: auto;
+}
+
+/* End of Chat features */
+
+
+.profile { max-width:1170px; padding-top: 40px; margin:auto;}
+
+.profile h4 {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+img { max-width:100%;}
+
+.col-sm-8 {
+    padding: 25px;
+    border: 1px solid #F15A2C;
+}
+
+.bio input[type=text] {
+    width: 300%;
+    height: 100px;
+
+}
+
+.col-sm-8 a, .links a {
+    color: #391D55!important;
+}
+
+.links a:hover, .col-sm-8 a:hover {
+    text-decoration: underline!important;
+    color: #F15A2C!important;
+}
+
+.bio {
+    max-width: 1170px;
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.bio h6 {
+    margin-left: 15px;
+}
+
+.links {
+    margin-left: 50%;
+    margin-top: 70px;
+}
+
+
+.delete {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+* {box-sizing: border-box}
+
+
+.col-sm-4 {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+
+.image {
+border-radius: 50%;
+    width: 100%;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    height: 270px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 90%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.col-sm-4:hover .overlay {
+    opacity: 1;
 }
