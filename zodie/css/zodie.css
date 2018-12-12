@@ -19,6 +19,37 @@ section .quotes {
 .quotes h3, h4, h5 {
     font-size: 90%;
 }
+    .story h2 {
+    margin-left: 20px;
+}
+
+.story input[type=submit] {
+    margin-right: 20px;
+}
+   .col-sm-4 .image {
+        margin-left: 10px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        width: 50%;
+    }
+
+    .col-sm-4 .overlay {
+        position: absolute;
+        bottom: 0;
+        height: 112px;
+        border-radius: 50%;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1;
+        width: 40%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
 }
 
 body {
