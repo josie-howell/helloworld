@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lekton|Roboto|Oleo+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/zodie.css">
+    <link rel="icon" type=image/png href="https://github.com/josie-howell/josie-howell.github.io/blob/master/zodie/zodie-favicon.png?raw=true">
+    <title>Edit Profile // Zodie</title>
+</head>
+<body>
+<div class="nav">
+    <div class="topnav">
+        <a class="logo" href="index.html"><img src="https://github.com/josie-howell/josie-howell.github.io/blob/master/zodie/zodie-05.png?raw=true"></a>
+        <div id="myLinks">
+            <a href="#" data-toggle="tooltip" title="This page does not exist.">browse matches</a>
+            <a href="#" data-toggle="tooltip" title="This page does not exist.">daily horoscope</a>
+            <a href="zodie/profile.html" class="active">profile</a>
+            <a href="zodie/messages.html">messages</a>
+            <a href="#" data-toggle="tooltip" title="This page does not exist.">invite friends</a>
+            <a href="#" data-toggle="tooltip" title="This page does not exist.">contact us</a>
+            <a href="zodie/upgrade.html">upgrade</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div></div>
+<div id="social"><a href="https://www.facebook.com"><img src="https://github.com/josie-howell/josie-howell.github.io/blob/master/zodie/facebook.png?raw=true" alt="facebook"></a>
+        <a href="https://www.twitter.com"><img src="https://github.com/josie-howell/josie-howell.github.io/blob/master/zodie/twitter.png?raw=true" alt="twitter"></a>
+    <a href="https://www.tumblr.com"><img src="https://github.com/josie-howell/josie-howell.github.io/blob/master/zodie/tumblr.png?raw=true" alt="tumblr"></a>        
+        <a href="https://www.instagram.com"><img src="https://github.com/josie-howell/josie-howell.github.io/blob/master/zodie/instagram.png?raw=true" alt="instagram"></a>
+        <a href="https://plus.google.com/discover"><img src="https://github.com/josie-howell/josie-howell.github.io/blob/master/zodie/google.png?raw=true" alt="google"></a></div>
+</div>
+<div class="profile">
+    <h4>Edit Profile</h4>
+    <div class="row">
+       <div class="col-sm-4">
+           <img src="https://github.com/josie-howell/josie-howell.github.io/blob/master/zodie/yourprofile.png?raw=true" alt="me" class="image">
+           <div class="overlay">Change Photo</div>
+       </div>
+        <div class="col-sm-8">
+            <a href="#">Edit</a>
+            <p>Member Since:</p>
+            <p>Screen Name:</p>
+            <p>Email:</p>
+            <p>Password:</p>
+        </div>
+        <div class="bio">
+
+                <form><h6>Edit Bio </h6><br>
+                    <input type="text" name="bio">
+                </form>
+            <form action="#">
+                <input type="submit" value="Save Changes" data-toggle="tooltip" title="This page does not exist.">
+
+            </form>
+        </div>
+        <br>
+
+    <div class="links">
+        <ul>
+            <li><a href="#" data-toggle="tooltip" title="This page does not exist.">Photos</a></li>
+            <li><a href="#" data-toggle="tooltip" title="This page does not exist.">Preferences</a></li>
+            <li><a href="#" data-toggle="tooltip" title="This page does not exist.">Privacy Links</a></li>
+        </ul>
+    </div>
+
+    <div class="delete">
+        <h4> Delete Account </h4>
+        <p>
+            All your matches and preferences will be permanently lost if you delete your account.
+            Receiving too many emails? Unsubscribe from our mailing list instead.
+            To change your email address, simply click "Edit" next to your personal info above.
+        </p>
+        <form action="#">
+            <input type="submit" value="Unsubscribe" data-toggle="tooltip" title="This page does not exist.">
+                <input type="submit" value="Delete Account" data-toggle="tooltip" title="This page does not exist.">
+        </form>
+    </div>
+</div>
+</div>
+<footer>
+    Josie Howell 2019 |
+    Minneapolis Community & Technical College |
+    WEBI 2023-01 Web Design Problems 1 |
+    This is a student-made site meant for educational purposes only.
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+</body>
+</html>
